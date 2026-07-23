@@ -46,9 +46,9 @@ export default function Hero() {
         </h1>
 
         <p className="text-sm leading-relaxed text-offwhite/90">
-          Mint Homes crafts community-centred residences that blend timeless
-          design with modern comfort, creating spaces where every detail
-          speaks of elegance and purpose.
+          Mint Homes crafts community-centred residences across three
+          continents — blending timeless architecture with a commitment to
+          quality that never wavers.
         </p>
       </div>
     </section>

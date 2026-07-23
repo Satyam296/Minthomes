@@ -4,7 +4,6 @@ import Image from "next/image";
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import Marquee from "./Marquee";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -35,11 +34,9 @@ export default function About() {
   return (
     <section className="bg-cream py-20 md:py-24">
       <div className="mx-auto max-w-6xl px-6">
-        <Marquee />
-
         <div
           ref={sectionRef}
-          className="mt-16 grid grid-cols-1 items-center gap-12 opacity-0 md:grid-cols-2 md:gap-16"
+          className="grid grid-cols-1 items-center gap-12 opacity-0 md:grid-cols-2 md:gap-16"
         >
           <div className="relative h-96">
             <div className="absolute right-0 top-0 h-80 w-[85%] overflow-hidden rounded-2xl shadow-xl">
