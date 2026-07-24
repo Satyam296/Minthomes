@@ -17,6 +17,8 @@ const config: Config = {
         offwhite: "#F7F4EE",
         charcoal: "#2B2B2B",
         maroon: "#5C2A21",
+        navy: "#1E3A5F",
+        rust: "#B5623B",
       },
       fontFamily: {
         serif: ["var(--font-serif)", "serif"],

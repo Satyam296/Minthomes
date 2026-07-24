@@ -9,12 +9,12 @@ const items = [
 
 export default function Marquee() {
   return (
-    <div className="overflow-hidden rounded-full bg-maroon py-3 shadow-lg">
-      <div className="flex w-max animate-marquee gap-3 whitespace-nowrap text-sm text-white/90">
+    <div className="overflow-hidden rounded-full bg-rust py-3 shadow-lg">
+      <div className="flex w-max animate-marquee gap-3 whitespace-nowrap font-serif text-sm italic text-white/90">
         {[...items, ...items].map((item, i) => (
           <span key={i} className="flex items-center gap-3">
             {item}
-            <span className="text-gold">•</span>
+            <span className="not-italic text-gold">•</span>
           </span>
         ))}
       </div>

@@ -14,7 +14,7 @@ export default function Home() {
       <main className="bg-cream text-charcoal">
         <Header />
         <Hero />
-        <div className="relative z-10 mx-auto -mt-6 max-w-6xl px-6 md:-mt-8">
+        <div className="mx-auto mt-8 max-w-6xl px-6 md:mt-10">
           <Marquee />
         </div>
         <About />
